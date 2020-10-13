@@ -8,19 +8,19 @@ css를 이용하여 페이지의 레이아웃을 구현시켰습니다.
 --------------------------------
 
 
-## **2. 주요 코드 설명 **
+## **2. 주요 코드 설명**
 
 전체적인 화면의 구성은 총 5가지로 나누어 보았습니다.
 
 상단에 있는 메뉴바, 사진과 함께 있는 로고바, Section1과 Aside 글, 사진과 section2, copyright 이렇게 입니다.
 
-#### *상단에 있는 메뉴바
+#### * 상단에 있는 메뉴바
 
 flex 박스 인터페이스를 이용하여 메뉴칸들의 공간들을 정렬하였습니다.
 
 각 메뉴들마다 margin을 15px로 하여 정렬하였습니다.
 
-#### *사진과 함께 있는 로고바
+#### * 사진과 함께 있는 로고바
 
 container1을 안의 item1들을 총 3개로 하였고, 모든 item들의 위치를 absolute 하게 주었습니다.
 
@@ -30,11 +30,11 @@ container1을 안의 item1들을 총 3개로 하였고, 모든 item들의 위치
 
 - item.content2 : Lorem을 이용
 
-#### *Section과 Aside 글
+#### * Section과 Aside 글
 
 글들을 overflow된 경우 hidden으로 주었습니다.
 
-#### *사진과 section2
+#### * 사진과 section2
 
 container2을 안의 item2들을 총 3개로 하였고, 모든 item들의 위치를 absolute 하게 주었습니다.
 
@@ -42,7 +42,7 @@ container2을 안의 item2들을 총 3개로 하였고, 모든 item들의 위치
 
 - item2.content1와 item.content2 : float를 이용하여 사진 옆에 바로 문구
 
-#### *copyright
+#### * copyright
 
 container3의 background-color를 gray로 두었고, copyright ⓒ 문구를 두었습니다.
 
@@ -50,7 +50,7 @@ container3의 background-color를 gray로 두었고, copyright ⓒ 문구를 두
 ----------------------------
 
 
-## **3. 비고 및 고찰
+## **3. 비고 및 고찰**
 
 화면에서 위치를 옮기고, 스크롤에 따른 위치 변경 등 조금이라도 섬세하게 코드를 작성하지 않는다면,
 원하는대로 나오지 않아서 답답하였다.
