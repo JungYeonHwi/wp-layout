@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>week04_project_layout</title>
+    <style>
+        body {
+            width : 1000px;
+            margin: 0 auto;
+        }
+
+        .flex-box {
+            display : flex;
+            width: 1000px;
+            height: 50px;
+        }
+
+        .flex-item {
+            width: 100px;
+            height: 30px;
+            margin: 15px;
+        }
+        
+        .container1 {
+            width:1000px;
+            height:150px;
+        }
+
+        .item1 {
+            position : absolute;
+            box-sizing:border-box;
+        }
+
+        .item1.pic {
+            width:1000px;
+            height:150px;
+        }
+
+        .item1.content1 {
+            padding : 5px 50px;
+            color:white;
+            font-size:x-large;
+            font-style: normal;
+        }
+
+        .item1.content2 {
+            padding : 70px 150px;
+            color:white; 
+        }
+
+        .wrap { overflow: hidden; }
+
+        .Section1 {
+            width: 600px;
+            height:220px;
+            margin-left: 15px;
+            float: left;
+        }
+
+        .Aside {
+            width: 300px;
+            height:100x;
+            margin-left: 50px;
+            float: left;
+        }
+        .container2 {
+            width:1000px;
+            height:10px;
+        }
+
+        .item2 {
+            position : absolute;
+            box-sizing:border-box;
+        }
+
+        .item2.pic {
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            margin-left: 5px;
+        }
+
+        .item2.content1 {
+            width : 800px;
+            margin-left:150px;
+            font-weight: bold;
+        }
+
+        .item2.content2 {
+            width: 800px;
+            height:100px;
+            float: left;
+            margin-left:150px;
+            margin-top:50px;
+        }
+        .container3 {
+            width:1000px;
+            height:100px;
+            background-color: gray;
+            margin-top:150px;
+        }
+
+        .item3 {
+            position : absolute;
+            box-sizing:border-box;
+            padding : 20px 450px;
+            font-style: normal;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <div class="flex-item">메뉴 1</div>
+        <div class="flex-item">메뉴 2</div>
+        <div class="flex-item">메뉴 3</div>
+    </div>
+
+    <div class="container1">
+        <img class="item1 pic" src="https://picsum.photos/seed/picsum/1000/150" , alt="picsum image">
+        <p class="item1 content1">My Home Page</p>
+        <p class="item1 content2">Lorem ipsum dolor sit.</p>
+    </div>
+
+    <div class="wrap">
+        <div class ="Section1">
+            <h3>Section1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore asperiores, totam suscipit cumque dolorem qui illo cum omnis magnam voluptatibus perferendis exercitationem voluptatem tempore et id quisquam quam laborum, architecto ipsam mollitia ex ipsa nobis! Deleniti voluptates voluptatum laboriosam facere?</p>
+        </div>
+
+        <div class ="Aside">
+            <h3>Aside</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius accusamus ex numquam perspiciatis dolore tempora quasi, similique dignissimos reiciendis quod.</p>
+        </div>
+    </div>
+
+    <div class="container2">
+        <img class="item2 pic" src="https://picsum.photos/id/237/100/100", alt="picsum image">
+        <p class="item2 content1">Section2</p>
+        <p class="item2 content2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati accusamus porro fugiat explicabo magni maxime quod cupiditate nemo ea debitis animi minima eligendi, quas eum tenetur praesentium commodi natus.</p>
+    </div>
+
+    <div class="container3">
+        <p class="item3">Copyright ⓒ</p>
+    </div>
+    
+</body>
+</html>
