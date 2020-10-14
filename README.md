@@ -4,6 +4,8 @@
 
 css를 이용하여 페이지의 레이아웃을 구현시켰습니다.
 
+페이지의 주제는 저의 블로그 형식으로 나타내었습니다.
+
 
 --------------------------------
 
@@ -26,21 +28,23 @@ container1을 안의 item1들을 총 3개로 하였고, 모든 item들의 위치
 
 - item1.pic : 사진 로고
 
-- item1.content1 : My Home page 문구
+- item1.content1 : YeonHwi's blog 문구
 
-- item.content2 : Lorem을 이용
+- item1.content2 : Daily 내용
 
-#### * Section과 Aside 글
+#### * Section1과 Aside 글
 
 글들을 overflow된 경우 hidden으로 주었습니다.
+
+Section1에서는 Daily 내용을, Aside에서는 Travel 내용을 넣었습니다.
 
 #### * 사진과 section2
 
 container2을 안의 item2들을 총 3개로 하였고, 모든 item들의 위치를 absolute 하게 주었습니다.
 
-- item1.pic : 작은 사진 왼쪽 정렬
+- item2.pic : 작은 사진 (개) 왼쪽 정렬
 
-- item2.content1와 item.content2 : float를 이용하여 사진 옆에 바로 문구
+- item2.content1와 item.content2 : float를 이용하여 사진 옆에 바로 Pet 내용을 넣었습니다.
 
 #### * copyright
 
